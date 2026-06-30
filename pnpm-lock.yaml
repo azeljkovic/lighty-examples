@@ -1,0 +1,23 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      '@azeljkovic/lighty':
+        specifier: ^0.0.1
+        version: 0.0.1
+
+packages:
+
+  '@azeljkovic/lighty@0.0.1':
+    resolution: {integrity: sha512-ksVdJFMgOudGBBGnB2PKQf6NyoF16T9ykB6IKQPYa+Q7/y7YbS8oD7JxhlINyrZHPkf7aNbGDEZsm+Qe1NRJ7A==}
+    engines: {node: '>=24'}
+
+snapshots:
+
+  '@azeljkovic/lighty@0.0.1': {}
