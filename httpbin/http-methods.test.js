@@ -1,6 +1,6 @@
 import { describe, it } from "node:test";
 import { client } from "./client.ts";
-import {lightyAssert} from "@azeljkovic/lighty";
+import { lightyAssert } from "@azeljkovic/lighty";
 
 describe("testing different HTTP verbs", () => {
   it("the request's query parameters", async () => {

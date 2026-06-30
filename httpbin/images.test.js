@@ -1,6 +1,6 @@
 import { describe, it } from "node:test";
 import { client } from "./client.ts";
-import {lightyAssert} from "@azeljkovic/lighty";
+import { lightyAssert } from "@azeljkovic/lighty";
 
 describe("returns different image formats", () => {
   it("returns a simple image of the type suggested by the Accept header", async () => {

@@ -1,6 +1,6 @@
 import { describe, it } from "node:test";
 import { client } from "./client.ts";
-import {lightyAssert} from "@azeljkovic/lighty";
+import { lightyAssert } from "@azeljkovic/lighty";
 
 describe("inspect the response data like caching and headers", () => {
   it("returns a 304 if an If-Modified-Since header or If-None-Match is present. Returns the same as a GET otherwise.", async () => {

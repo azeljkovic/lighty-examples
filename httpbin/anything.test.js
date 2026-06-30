@@ -1,7 +1,6 @@
-import {describe, it} from "node:test";
-import {client} from "./client.ts";
-import {lightyAssert} from "@azeljkovic/lighty";
-
+import { describe, it } from "node:test";
+import { client } from "./client.ts";
+import { lightyAssert } from "@azeljkovic/lighty";
 
 const params = {
   color: "ultraviolet",

@@ -2,8 +2,7 @@ import { describe, it } from "node:test";
 import { Buffer } from "node:buffer";
 import { client } from "./client.ts";
 import assert from "node:assert/strict";
-import {lightyAssert} from "@azeljkovic/lighty";
-
+import { lightyAssert } from "@azeljkovic/lighty";
 
 describe("generates random and dynamic data", () => {
   it("decodes base64url-encoded string", async () => {

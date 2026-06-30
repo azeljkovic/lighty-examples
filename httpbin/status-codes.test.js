@@ -1,7 +1,6 @@
 import { describe, it } from "node:test";
 import { client } from "./client.ts";
-import {lightyAssert} from "@azeljkovic/lighty";
-
+import { lightyAssert } from "@azeljkovic/lighty";
 
 describe("generates responses with given status code", () => {
   it("responseIsOk", async () => {

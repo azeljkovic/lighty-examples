@@ -1,7 +1,7 @@
 import { describe, it } from "node:test";
 import { client } from "./client.ts";
 import assert from "node:assert/strict";
-import {lightyAssert} from "@azeljkovic/lighty";
+import { lightyAssert } from "@azeljkovic/lighty";
 
 describe("returns responses in different data formats", () => {
   it("returns Brotli-encoded data", async () => {

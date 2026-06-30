@@ -1,4 +1,4 @@
-import {createClient} from "@azeljkovic/lighty";
+import { createClient } from "@azeljkovic/lighty";
 
 export const client = createClient({
   baseUrl: "http://localhost",
