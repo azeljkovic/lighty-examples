@@ -15,7 +15,7 @@
   "license": "ISC",
   "packageManager": "pnpm@11.9.0",
   "dependencies": {
-    "@azeljkovic/lighty": "0.0.1"
+    "@azeljkovic/lighty": "0.0.2"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
